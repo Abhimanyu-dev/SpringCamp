@@ -53,7 +53,7 @@ export const Display = ({data, search}) => {
     
     useEffect(() => {
         if(search){
-            setVisibleTiles(tiles)            
+            setVisibleTiles(tiles.slice(0, 50))            
         }else{
             setVisibleTiles()
         }

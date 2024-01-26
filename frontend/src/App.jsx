@@ -43,8 +43,7 @@ function App() {
       
     }
     fetchData()
-  }) 
-  console.log(data)
+  }, []) 
 
   return (
     <ThemeContext.Provider value={{themes, theme}}>
