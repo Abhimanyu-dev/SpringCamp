@@ -26,14 +26,14 @@ const BlogContainer  = styled.div`
 `
 
 
-export const HomePage = ({userName}) => {
+export const HomePage = () => {
     return(
         <Container>
-            <NavBar userName={userName}/>
+            <NavBar />
             <BlogContainer>
                 {
                     blogs.map((blog, index) => {
-                        return(<Blog blog={blog} key={index}/>)
+                        return(<Blog blog={blog} key={index} />)
                     })
                 }
             </BlogContainer>

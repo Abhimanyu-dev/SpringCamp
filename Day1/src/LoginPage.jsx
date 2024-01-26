@@ -88,6 +88,8 @@ export const LoginPage = ({userName, setUserName, password, setPassword}) => {
             }
         }
     }
+    console.log(userName)
+    console.log(password)
     return (
         <PageContainer>
             <Logo>Day 1 Task</Logo>

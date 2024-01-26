@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import LogoutIcon from '@mui/icons-material/Logout';
+import { useContext } from "react";
+import { UserName } from "./App";
 
 const Container = styled.div`
     position: sticky;
@@ -44,24 +46,13 @@ const Greeting = styled.div`
     justify-content: center;
 `
 
-export const NavBar = ({userName}) => {
-    if(userName){
-        const array = userName.split(" ")
-        let user = array[0]
-    }
+export const NavBar = () => {
     return(
         <Container>
-            <Title to="/">
+            <Title to="/" >
                 Day 1
-            </Title>
-            {
-                userName ? 
-                <Greeting>
-                    Hi, {user}
-                </Greeting>:
-                console.log("Ola")
-            }            
-            <LogoutButton to="SignIn">
+            </Title>     
+            <LogoutButton to="/SignIn">
                 <LogoutIcon />
             </LogoutButton>
 

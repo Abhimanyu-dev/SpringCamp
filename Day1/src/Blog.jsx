@@ -28,7 +28,7 @@ const BlogData = styled.div`
 
 export const Blog = ({blog}) =>{ 
     return (
-        <Container to={`Blog/${blog._id}`}>
+        <Container to={`/blog/${blog._id}`}>
             <By>{blog.name}</By>
             <BlogData>{blog.data}</BlogData>
         </Container>
