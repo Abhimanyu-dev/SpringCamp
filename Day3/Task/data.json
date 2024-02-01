@@ -1,0 +1,364 @@
+{
+    "result": [
+        {
+            "blogEntry": {
+                "authorHandle": "Yury_Bandarchuk",
+                "id": 21685,
+                "title": "\u003cp\u003eEditorial Codeforces Round #332 (Div. 2)\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706703885,
+                "id": 1112097,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eCan Anyone help me in understanding the testcases of problem B.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "MikeMirzayanov",
+                "id": 8790,
+                "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706703736,
+                "id": 1112096,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThis is with regard to the mail plagiarism for the problem 1925C, \u003c/p\u003e\u003cp\u003eI want to tell you that I was using ideone for a long time but this had happened to me for first time. i don't know about that public setting. i will assure codeforces that it will not occur again in future. Pardon me for the unintentional mistake I have caused to this platform and don't remove me please.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Heap_OverFlow",
+                "id": 125315,
+                "title": "\u003cp\u003eNo contests?\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706703299,
+                "id": 1112095,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eDiv 4 on 19th does not mean no contests before that. Contests can be added in between, and have been added in the past.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "CEKPET",
+                "id": 125337,
+                "title": "\u003cp\u003eWhile looking for cheaters I came across a friend\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 0,
+                "id": 0,
+                "text": ""
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mono-Haraki",
+                "id": 125334,
+                "title": "\u003cp\u003eCoding after 2 years :( \u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706703281,
+                "id": 1112094,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ethank you! \u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Heap_OverFlow",
+                "id": 125315,
+                "title": "\u003cp\u003eNo contests?\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706703113,
+                "id": 1112092,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ebruh, how tf you write these dumb little blogs, and still get upvoted??????? \u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Heap_OverFlow",
+                "id": 125315,
+                "title": "\u003cp\u003eNo contests?\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706703062,
+                "id": 1112091,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ediv 3 in 6 days, thank god\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "ConstructorU",
+                "id": 125304,
+                "title": "\u003cp\u003eConstructor Open Cup 2024\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706702692,
+                "id": 1112088,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ePractice and Final Round of the Constructor Open Cup 2024 is open for those who go through \u003ca href=\"https://constructor.university/constructor-open-cup-2024?utm_source=codeforces-announcement\u0026amp;utm_medium=codeforces\u0026amp;utm_campaign=open-cup-2024#register\"\u003eregistration\u003c/a\u003e only. And it's not rated :)\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Heap_OverFlow",
+                "id": 125315,
+                "title": "\u003cp\u003eNo contests?\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706702692,
+                "id": 1112089,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eGo to AtCoder for ABC and ARC on Feb 3-4\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "TooruQuyetCoVOI",
+                "id": 125125,
+                "title": "\u003cp\u003eDoes anyone have a solution of this\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706702282,
+                "id": 1112087,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThe polynomials A and B have size O(A) each, and constructing them takes O(n + m) time. Computing the square of their product is doable in O(A log A) using FFT (compute convolution 3 times). Now that you have this product, you keep on subtracting $$$x^d$$$ from the polynomial, where d is the degree of the polynomial so far. We need to do this k times. Note that we can group together subtraction of the same $$$x^i$$$-s, and thus this can be simulated in O(min(k, A)) time.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Hassan_Fathi",
+                "id": 125216,
+                "title": "\u003cp\u003eAnother cheating blog\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706702090,
+                "id": 1112086,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eFrom messages:\u003c/p\u003e\u003cp\u003eThese submissions are 100% identical as well\u003c/p\u003e\u003cp\u003e\u003ca href=\"/contest/1925/submission/243631358\" title=\"Submission 243631358 by codestorm666778\"\u003e243631358\u003c/a\u003e\u003c/p\u003e\u003cp\u003e\u003ca href=\"/contest/1925/submission/243617345\" title=\"Submission 243617345 by Harshitbro\"\u003e243617345\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Heap_OverFlow",
+                "id": 125315,
+                "title": "\u003cp\u003eNo contests?\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706700705,
+                "id": 1112085,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eYep but it still makes no difference to you and me :(\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mindeveloped",
+                "id": 125333,
+                "title": "\u003cp\u003eCareful: Passing STL containers as parameters might lead to MLE\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706700506,
+                "id": 1112084,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eoh I see, fixed, thanks\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Heap_OverFlow",
+                "id": 125315,
+                "title": "\u003cp\u003eNo contests?\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706700124,
+                "id": 1112083,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eNow there's a div3\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mono-Haraki",
+                "id": 125334,
+                "title": "\u003cp\u003eCoding after 2 years :( \u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706699682,
+                "id": 1112082,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eYou can solve more problems to remember the basics or topics that you solve on it, if you can't solve you can search about topics and listen them in Youtube for anyone who explain this topic and practice more, maybe you can solve from here \u003ca href=\"https://progvar.fun\"\u003eProgvar fun\u003c/a\u003e , more organized and perfect to solve on topics from here\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mindeveloped",
+                "id": 125333,
+                "title": "\u003cp\u003eCareful: Passing STL containers as parameters might lead to MLE\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 0,
+                "id": 0,
+                "text": ""
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Petr",
+                "id": 125330,
+                "title": "\u003cp\u003eA stable denominator week\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706699430,
+                "id": 1112081,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cblockquote\u003e   \u003cblockquote\u003e\u003cp\u003eThere was still some work to do to improve the complexity from O(n2) to O(n*logn), \u003c/p\u003e   \u003c/blockquote\u003e \u003c/blockquote\u003e\u003cp\u003eAs I see, you went for the diagonals (probably because the probabilities on the same diagonal are the same), but it was \u003ca href=\"https://codeforces.com/contest/1924/submission/244181788\"\u003emuch easier\u003c/a\u003e to go for rows (or columns), because the sum of $$$1/i(i+1) = 1/i - 1/(i+1)$$$ on a subsegment is very nice.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mindeveloped",
+                "id": 125333,
+                "title": "\u003cp\u003eCareful: Passing STL containers as parameters might lead to MLE\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706698773,
+                "id": 1112080,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI ran two versions of your code on generated sample data with parameters as in the failed test case. These are results:\u003c/p\u003e\u003cp\u003e\u003ccode\u003ePass by value (): Maximum resident set size (kbytes): 9788800\u003c/code\u003e\u003cbr /\u003e \u003ccode\u003ePass by reference: Maximum resident set size (kbytes): 9789056\u003c/code\u003e\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eI think, the issue does not relate to the parameters of the search() method.\u003c/p\u003e\u003cp\u003eEdit: the issue is here:\u003c/p\u003e \u003cpre\u003e\u003ccode\u003e       void insert (int \u0026amp;p, string str, int len, int i, int id) {\n                ...\n                insert (son[p][str[i] - 'a'], str, len, i + 1, id);\n       }\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eAfter modification of the \u003ccode\u003einsert()\u003c/code\u003e's signature to \u003ccode\u003einsert(int\u0026amp;, string\u0026amp;, int, int, int)\u003c/code\u003e:\u003c/p\u003e\u003cp\u003e\u003ccode\u003eMaximum resident set size (kbytes): 24812\u003c/code\u003e\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "snowysecret",
+                "id": 125335,
+                "title": "\u003cp\u003ehello codeforces\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706698731,
+                "id": 1112079,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ehow do i reach specialist i've learnt so many algorithms yet they all have proven to be futile. i learnt dsu dp djikstra, bfs, dfs, 2 coloring, disjoint set union, binary search, segment tre, lazy segment tree and bitset... turns out i didnt learn fft\u003c/p\u003e\u003cp\u003ei dream every night of the baby cyan colored name \u003ca class=\"rated-user user-green\" href=\"/profile/BigBadBully\" title=\"Pupil BigBadBully\"\u003eBigBadBully\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Hassan_Fathi",
+                "id": 125216,
+                "title": "\u003cp\u003eAnother cheating blog\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706698474,
+                "id": 1112078,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u003ci\u003eAuto comment: topic has been updated by \u003ca class=\"rated-user user-blue\" href=\"/profile/Hassan_Fathi\" title=\"Expert Hassan_Fathi\"\u003eHassan_Fathi\u003c/a\u003e (\u003ca href=\"/topic/125841/en1\"\u003eprevious revision\u003c/a\u003e, \u003ca href=\"/topic/125841/en2\"\u003enew revision\u003c/a\u003e, \u003ca href=\"/topic/125841/diff/en1/en2\"\u003ecompare\u003c/a\u003e).\u003c/i\u003e\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Hassan_Fathi",
+                "id": 125216,
+                "title": "\u003cp\u003eAnother cheating blog\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 0,
+                "id": 0,
+                "text": ""
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "snowysecret",
+                "id": 125335,
+                "title": "\u003cp\u003ehello codeforces\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706698266,
+                "id": 1112077,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eGoodbye snowysecret.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "TooruQuyetCoVOI",
+                "id": 125125,
+                "title": "\u003cp\u003eDoes anyone have a solution of this\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706698230,
+                "id": 1112076,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eActually I comprehend the concept, but I'm currently grappling with devising a solution that satisfies the requirement of O(n + m + AlogA). I'm having difficulty determining the approach to achieve this time complexity, can you help me with this?\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mhn_Neek",
+                "id": 125299,
+                "title": "\u003cp\u003eSPFA or DIJKESTRA\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706697713,
+                "id": 1112072,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThese are different approaches, spfa is to calculate graphs with negative-weight edges, while dijkstra is simply to calculate the shortest path. I don't have problem in implementing both of them. \u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "ConstructorU",
+                "id": 125304,
+                "title": "\u003cp\u003eConstructor Open Cup 2024\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706697613,
+                "id": 1112070,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI think there was no settings to change the password, it was very inconvenient to type a random password every time.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mindeveloped",
+                "id": 125333,
+                "title": "\u003cp\u003eCareful: Passing STL containers as parameters might lead to MLE\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706697413,
+                "id": 1112069,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI don't know exactly, but I think Codeforces measures the memory differently from \u003ccode\u003egetrusage\u003c/code\u003e, by measuring the largest segment of used memory rather than currently occupied memory. For evidence, \u003ca href=\"/contest/587/submission/244242383\" title=\"Submission 244242383 by Mindeveloped\"\u003e244242383\u003c/a\u003e got MLE with only the way of passing parameters modified from the original submission.\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "snowysecret",
+                "id": 125335,
+                "title": "\u003cp\u003ehello codeforces\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 0,
+                "id": 0,
+                "text": ""
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mindeveloped",
+                "id": 125333,
+                "title": "\u003cp\u003eCareful: Passing STL containers as parameters might lead to MLE\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706696672,
+                "id": 1112068,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cdiv class=\"spoiler\"\u003e\u003cb class=\"spoiler-title\"\u003eTest program\u003c/b\u003e\u003cdiv class=\"spoiler-content\" style=\"display: none;\"\u003e\u003cpre\u003e\u003ccode\u003e#include \u0026lt;iostream\u0026gt;\n#include \u0026lt;string\u0026gt;\n\n#include \u0026lt;sys/resource.h\u0026gt;\n#include \u0026lt;string.h\u0026gt;\n\nlong get_memory_usage()\n{\n\trusage usage;\n\tif (getrusage(RUSAGE_SELF, \u0026amp;usage) != 0) {\n\t\tstd::cerr \u0026lt;\u0026lt; \u0026quot;getrusage() failed: \u0026quot; \u0026lt;\u0026lt; strerror(errno) \u0026lt;\u0026lt; '\\n';\n\t\texit(1);\n\t}\n\n\treturn usage.ru_maxrss;\n}\n\nint k = 0;\n\nvoid f(std::string s)\n{\n\tk += s.length();\n}\n\nint main()\n{\n\tstd::cout \u0026lt;\u0026lt; \u0026quot;S: \u0026quot; \u0026lt;\u0026lt; get_memory_usage() \u0026lt;\u0026lt; '\\n';\n\n\tfor (int i = 0; i \u0026lt; 10000; ++i) {\n\t\tstd::string s(10000, ' ');\n\t\tf(s);\n\t}\n\n\tstd::cout \u0026lt;\u0026lt; \u0026quot;T: \u0026quot; \u0026lt;\u0026lt; get_memory_usage() \u0026lt;\u0026lt; '\\n';\n\n\treturn 0;\n}\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003c/div\u003e\u003cp\u003e\u003ccode\u003e$ ./t\u003c/code\u003e\u003cbr /\u003e \u003ccode\u003eS: 3584\u003c/code\u003e\u003cbr /\u003e \u003ccode\u003eT: 3584\u003c/code\u003e\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eIt seems the memory allocator you have used is broken ;)\u003c/p\u003e\u003c/div\u003e"
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "Mono-Haraki",
+                "id": 125334,
+                "title": "\u003cp\u003eCoding after 2 years :( \u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 0,
+                "id": 0,
+                "text": ""
+            }
+        },
+        {
+            "blogEntry": {
+                "authorHandle": "ooaa",
+                "id": 125300,
+                "title": "\u003cp\u003eCodeforces Round #922 (Div. 2) Editorial\u003c/p\u003e"
+            },
+            "comment": {
+                "creationTimeSeconds": 1706696478,
+                "id": 1112067,
+                "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eand... your E submission use rng(timestamp)\u003c/p\u003e\u003cp\u003ewhich is somehow better than srand(timestamp)?\u003c/p\u003e\u003c/div\u003e"
+            }
+        }
+    ]
+}
